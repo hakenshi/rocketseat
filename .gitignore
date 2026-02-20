@@ -1,0 +1,98 @@
+# ===== C# / .NET =====
+
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## MonoDevelop / Xamarin Studio
+*.userprefs
+
+## NuGet
+*.nupkg
+*.snupkg
+# Uncomment if you want to ignore packages folder (usually not recommended with PackageReference)
+# packages/
+# if using packages.config
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+## MSBuild
+*.rsuser
+*.sln.cache
+*.sln.ide
+*.cache
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+## Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+## Publish / artifacts
+**/[Pp]ublish/
+**/[Aa]rtifacts/
+**/*.publishsettings
+**/*.pubxml
+**/*.pubxml.user
+
+## ASP.NET / app secrets
+secrets.json
+appsettings.*.json.user
+**/Properties/launchSettings.json
+
+## EF Core
+*.db
+*.db-shm
+*.db-wal
+Migrations/*.csproj.user
+
+## OS / misc
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Coverage tools
+coverage/
+.coverage/
+**/coverage.cobertura.xml
+**/coverage.opencover.xml
+**/lcov.info 
+
+## Benchmarks
+BenchmarkDotNet.Artifacts/
+
+## Local env files
+.env
+.env.*
