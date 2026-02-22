@@ -1,0 +1,6 @@
+@FundamentosRest_HostAddress = http://localhost:8000
+
+GET {{FundamentosRest_HostAddress}}/api/product/
+Accept: application/json
+
+###
